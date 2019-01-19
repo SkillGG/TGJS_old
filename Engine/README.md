@@ -12,6 +12,6 @@
 
 ### TypeElement
 
-..* JS Object that should have:
+* JS Object that should have:
 ... `tF` which is `typeFunction` refer array
 ... `charInterval` which is time (in ms) to delay next typed letter
