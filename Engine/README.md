@@ -2,16 +2,42 @@
 
 ## Object Definitions
 
-### Line
+|Name|Definition|
+|----|----------|
+|`Line`|*DOMElement* (often *DIV*) with `LineDOMArgs`|
+|`LineArray`|*Array* of `Line`|
+|`typeElement`|*Object* with [TypeArgs](#TA)|
 
-* Line is a DOMElement (often DIV)
+|Argument|Command|
+|---|---|
+|tF |[`typerFunction`](#TF)|
 
-### LineArray
 
-* Array of Line's
+a
+a
+a
+a
+a
+a
+a
+a
+a
 
-### TypeElement
+a
+a
+a
+a
+a
+a
 
-* JS Object that should have:
-... `tF` which is `typeFunction` refer array
-... `charInterval` which is time (in ms) to delay next typed letter
+a
+a
+a
+
+
+
+
+
+
+#TA
+TTTA
