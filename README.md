@@ -18,7 +18,7 @@ You can also use no-library version [TextEngine-nl.js](Engine) that needs also [
 
 > !NOTE
 >
-> Documentation is very incomplete!
+> **Documentation is very incomplete!**
 
 [Here](Engine/) is documentation of this engine
 
