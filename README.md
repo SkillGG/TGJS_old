@@ -13,3 +13,7 @@ You can also use no-library version [TextEngine-nl.js](Engine) that needs also [
 <script type='text/javascript' src='./Extends.js'></script>
 <script type='text/javascript' src='./TextEngine-nl.js'></script>
 ```
+
+# Documentation
+
+[Here](Engine/) is documentation of this engine
