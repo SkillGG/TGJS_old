@@ -50,7 +50,9 @@
 ### loadDictionaries:
 
 > Syntax:
+>
 > *loadDictionaries(**dictionaryFiles**)*
 
-Loads file from *path* then parses every line
-and saves to Lang.*name*
+For every *Object* in `dictionaryFiles` loads file from *path*
+then parses its value as **dictLine**s and saves to
+`Lang`.*name*.(**dictLine**`.name`)
