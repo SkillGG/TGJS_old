@@ -15,15 +15,15 @@
 |`dictionaryFile`|*Object* containing *langCode*(`lang`) and *path* to file containing `dictLine`s|
 |`dictLine`|*String* Line formatted as follows: ```<NAME>:{`<TEXT>`}```|
 
-## Typer Arguments
+### Typer Arguments
 
 |Argument|Explanation|
 |--------|----------|
 |`tF`|`functionList`|
-|`charInterval`|*Number* delay in showing time between letters(**ms**)|
+|`charInterval`|*Number* delay in showing time between letters (**ms**)|
 |`typeTo`|*DOMElement* typing destination|
 
-## Line Arguments
+### Line Arguments
 
 |Argument|Explanation|
 |--------|---|
@@ -31,7 +31,7 @@
 |`get`|*String* **get**|
 |`lang`|*String* **lang**|
 
-## Line DOM Arguments
+### Line DOM Arguments
 
 |Argument|Explanation|
 |--------|-----------|
