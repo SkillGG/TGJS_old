@@ -2,6 +2,8 @@
 
 ## Object Definitions
 
+### Main Objects
+
 |Name|Definition|
 |----|----------|
 |`Line`|*DOMElement* (often *DIV*) with some(or every) of `LineDOMArgs`|
@@ -12,7 +14,7 @@
 |`functionStringN`|*String* formatted as `<functionStage>: <functionName>`|
 |`functionStage`|*String* that marks stage when function is invoked {**ignite**:`'i'`, **before**:`'b'`, **after**:`'a'`}|
 |`functionName`|*String* name of function|
-|`dictionaryFile`|*Object* containing *langCode*(`lang`) and *path* to file containing `dictLine`s|
+|`dictionaryFiles`|*Array* of *Object*s containing *langCode*(`lang`) and *path* to file containing `dictLine`s|
 |`dictLine`|*String* Line formatted as follows: ```<NAME>:{`<TEXT>`}```|
 
 ### Typer Arguments
@@ -40,3 +42,15 @@
 |*tF*|`functionStringN`|
 |*wait*|Delay between **ignite()** and **before()** in `Typer.type`/`Typer.typeClick` (**ms**)|
 |*charInter*|**`charInterval`**|
+
+#Language
+
+##Functions
+
+###loadDictionaries:
+
+> Syntax:
+> *loadDictionaries(**dictionaryFiles**)*
+
+Loads file from *path* then parses every line
+and saves to Lang.*name*.*NAME*
