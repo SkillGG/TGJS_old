@@ -6,8 +6,12 @@
 |----|----------|
 |`Line`|*DOMElement* (often *DIV*) with `LineDOMArgs`|
 |`LineArray`|*Array* of `Line`|
-|`typeElement`|*Object* with [TypeArgs](#TA)|
+|`typeElement`|*Object* with `TypeArgs`|
+|`typeFunctions`|*Object* with functions (from `typerFunctionList`)|
+|`functionList`|*Array* containing `functionStringN`s of **ignite**, **before**, **after** |
 
-|Argument|Command|
-|---|---|
-|tF |[`typerFunction`](javascript:alert('x')))|
+## Typer Arguments
+
+|Argument|Explanation|
+|-------|----------|
+|`tF`|`functionList`|
