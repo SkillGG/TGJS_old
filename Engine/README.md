@@ -43,14 +43,14 @@
 |*wait*|Delay between **ignite()** and **before()** in `Typer.type`/`Typer.typeClick` (**ms**)|
 |*charInter*|**`charInterval`**|
 
-#Language
+# Language
 
-##Functions
+## Functions
 
-###loadDictionaries:
+### loadDictionaries:
 
 > Syntax:
 > *loadDictionaries(**dictionaryFiles**)*
 
 Loads file from *path* then parses every line
-and saves to Lang.*name*.*NAME*
+and saves to Lang.*name*
