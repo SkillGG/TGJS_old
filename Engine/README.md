@@ -12,6 +12,8 @@
 |`functionStringN`|*String* formatted as `<functionStage>: <functionName>`|
 |`functionStage`|*String* that marks stage when function is invoked {**ignite**:`'i'`, **before**:`'b'`, **after**:`'a'`}|
 |`functionName`|*String* name of function|
+|`dictionaryFile`|*Object* containing *langCode*(`lang`) and *path* to file containing `dictLine`s|
+|`dictLine`|*String* Line formatted as follows: `<NAME>:{\`<TEXT>\`}`|
 
 ## Typer Arguments
 
