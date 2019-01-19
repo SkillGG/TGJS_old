@@ -1,4 +1,15 @@
 # T.G.JS
 Text Game JS is an engine for JS text-based games.
 # Use
-For now there is just [TGJS-nf.js](Engine/TextEngine-nl.js) version, which needs help of 'Extends.js' to work.
+Download [TextEngine.js](Engine/) and then add it to your project as other library
+
+```html
+<script type='text/javascript' src='./TextEngine.js'>
+```
+
+You can also use no-library version [TextEngine-nl.js](Engine) that needs also [Extends.js](NFLibs) added to project
+
+```html
+<script type='text/javascript' src='./Extends.js'>
+<script type='text/javascript' src='./TextEngine-nl.js'>
+```
