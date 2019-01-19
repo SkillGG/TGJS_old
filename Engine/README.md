@@ -13,31 +13,10 @@
 |tF |[`typerFunction`](#TF)|
 
 
-a
-a
-a
-a
-a
-a
-a
-a
-a
+<div id='TA'>
+	Type Arguments
+</div>
 
-a
-a
-a
-a
-a
-a
-
-a
-a
-a
-
-
-
-
-
-
-#TA
-TTTA
+|Arg|Def|
+|---|---|
+|x|y|
