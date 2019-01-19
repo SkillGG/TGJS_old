@@ -10,13 +10,4 @@
 
 |Argument|Command|
 |---|---|
-|tF |[`typerFunction`](#TF)|
-
-
-<div id='TA'>
-	Type Arguments
-</div>
-
-|Arg|Def|
-|---|---|
-|x|y|
+|tF |[`typerFunction`](javascript:alert('x')))|
