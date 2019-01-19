@@ -4,7 +4,7 @@
 
 |Name|Definition|
 |----|----------|
-|`Line`|*DOMElement* (often *DIV*) with `LineDOMArgs`|
+|`Line`|*DOMElement* (often *DIV*) with some(or every) of `LineDOMArgs`|
 |`LineArray`|*Array* of `Line`s|
 |`typeElement`|*Object* with `Typer Arguments`|
 |`typeFunctions`|*Object* with functions (from `functionList`)|
@@ -21,6 +21,14 @@
 |`charInterval`|*Number* delay in showing time between letters(**ms**)|
 |`typeTo`|*DOMElement* typing destination|
 
+## Line Arguments
+
+|Argument|Explanation|
+|--------|---|
+|`Type`|*Object* with **clickPass**(`cp`), **tF**, **wait**, **charInter**(`inter`)|
+|`get`|*String* **get**|
+|`lang`|*String* **lang**|
+
 ## Line DOM Arguments
 
 |Argument|Explanation|
@@ -29,4 +37,4 @@
 |*clickPass*|Marks `Line` in `Typer.typeAll` to *proceed after mouse click*.|
 |*tF*|`functionStringN`|
 |*wait*|Delay between **ignite()** and **before()** in `Typer.type`/`Typer.typeClick` (**ms**)|
-|*inter*|`Typer Argument`.**`charInterval`**
+|*charInter*|**`charInterval`**|
