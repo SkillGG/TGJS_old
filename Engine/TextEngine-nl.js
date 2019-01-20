@@ -179,6 +179,8 @@ let Lang = {};
 						 				return Lang.en[get];
 						 			window.onclick=()=>{location.reload();};
 						 			newE.removeAllAttributes();
+						 			newE.classEqual('typeText');
+						 			newE.setAttribute('charInter','1');
 						 			return `<span class='red'> MISSING: ${get}</span>`;
 						 		} 
 						 	)()
