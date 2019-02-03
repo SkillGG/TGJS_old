@@ -6,7 +6,7 @@
 
 |Name|Definition|
 |----|----------|
-|`Line`|*DOMElement* (often *DIV*) with some(or every) of `LineDOMArgs`|
+|`Line`|*DOMElement* (often *DIV*) with some(or every) of [`LineDOMArgs`](#line-dom-arguments)|
 |`LineArray`|*Array* of `Line`s|
 |`typeElement`|*Object* with `Typer Arguments`|
 |`typeFunctions`|*Object* with functions (from `functionList`)|
