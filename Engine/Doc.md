@@ -10,6 +10,34 @@ This is my first big project so this documentation will not
 be best you've ever seen.
 Please be aware of this.
 
+How to use?
+-----------
+
+So first thing you want to do is to download newest release or 
+just [TextEngine.js](TextEngine.js).
+
+Then add it to your HTML project with this line and start using it in your code!
+
+><script src='TextEngine.js'></script>
+
+What it provides?
+-----------------
+
+*TGJS* (TextGameJS) provides 3 variables, which contains a set of functions to make your life with showing your text in your game easier.
+
+### Lang
+
+First variable you should know is **Lang**.
+
+It has functions, that helps you to make changing languages
+less of a pain to programmer.
+
+So how to use it? [Add main file to your project](#how-to-use)
+and use it's functions typing prefix **Lang.**
+for example:
+
+>Lang.getFrom('x',0,0,'span');
+
 ## Object Definitions
 
 ### Main Objects
