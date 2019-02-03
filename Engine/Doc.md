@@ -1,4 +1,14 @@
-# Documentation for TextEngine
+Documentation Of This Engine
+=============================
+
+This is _para engine_ which means, that it does not really
+have too much functions.
+I hope it will change and in some time this _para engine_ will become full
+JS **engine**.
+
+This is my first big project so this documentation will not
+be best you've ever seen.
+Please be aware of this.
 
 ## Object Definitions
 
@@ -43,7 +53,7 @@
 |*wait*|Delay between **ignite()** and **before()** in `Typer.type`/`Typer.typeClick` (**ms**)|
 |*charInter*|**`charInterval`**|
 
-# Language
+# Lang
 
 ## Functions
 
