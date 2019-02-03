@@ -18,7 +18,9 @@ just [TextEngine.js](TextEngine.js).
 
 Then add it to your HTML project with this line and start using it in your code!
 
-><script src='TextEngine.js'></script>
+```html
+<script src='TextEngine.js'></script>
+```
 
 What it provides?
 -----------------
@@ -36,7 +38,9 @@ So how to use it? [Add main file to your project](#how-to-use)
 and use it's functions typing prefix **Lang.**
 for example:
 
->Lang.getFrom('x',0,0,'span');
+```javascript
+Lang.getFrom('x',0,0,'span');
+```
 
 ## Object Definitions
 
