@@ -20,5 +20,5 @@ You can also use no-library version [TextEngine-nl.js](Engine) that needs also [
 >
 > **Documentation is very incomplete!**
 
-[Here](Engine/) is documentation of this engine
+[Here](Engine/Doc.md) is documentation of this engine
 
