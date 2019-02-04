@@ -18,9 +18,7 @@ just [TextEngine.js](TextEngine.js).
 
 Then add it to your HTML project with this line and start using it in your code!
 
-```html
-<script src='TextEngine.js'></script>
-```
+><script src='TextEngine.js'></script>
 
 What it provides?
 -----------------
@@ -35,12 +33,26 @@ It has functions, that helps you to make changing languages
 less of a pain to programmer.
 
 So how to use it? [Add main file to your project](#how-to-use)
-and use it's functions typing prefix **Lang.**
+and use it's functions typing prefix `Lang.`
 for example:
 
-```javascript
-Lang.getFrom('x',0,0,'span');
-```
+>Lang.getFrom('x',0,0,'span');
+
+## Lang.load
+
+Test
+
+### Lang Function List
+
+|Name|
+|====|
+|[loaded](#lang-loaded)|
+|[getFrom](#lang-getfrom)|
+|[getSpan](#lang-getspan)|
+|[getCenter](#lang-getcenter)|
+|[getSpan](#lang-getspan)|
+|[loadDictionary](#lang-loadDictionary)|
+|[loadDictionaries](#lang-loadDictionaries)|
 
 ## Object Definitions
 
