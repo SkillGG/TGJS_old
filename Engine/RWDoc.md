@@ -31,7 +31,16 @@ What it provides?
 
 Coder is a basic tool to make all code elements trigger a callback after click.
 
-It adds a mouse mouse command clicking which makes playing game much more easy.
+It adds a mouse command clicking which makes playing game much more easy.
 
 You just have to put into your HTML &lt;code&gt; element
 with class `.codeIn`.
+
+Coder has 4 basic functions:
+
+|Name|Function|
+|----|--------|
+|[processLineE(*line*, *element*)](#coderprocesslinee)|Sets callback of `code.codeIn`s in *line* to [__inputonkeyup13__](#inputonkeyup13)|
+|[processLinesE(*lines*, *element*)](#coderprocesslinese)|`Coder.processLineE` for more input Elements|
+|[multiprocessLine(*line*, *elemets*)](#codermultiprocessLine)|`Coder.processLineE` for more output Elements|
+|[processLineC(*line*, _element_)](#coderprocesslinec)|Sets callback of `code.codeIn`s in *line* to given in *callback*|
