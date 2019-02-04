@@ -53,10 +53,9 @@ Now time too explain more deeply those commands.
 
 ### Coder.processLineE
 
-Syntax:
-
 ```javascript
-	Coder.processLineE(line, element)
+//Syntax:
+Coder.processLineE(line, element)
 ```
 
 It 'extracts' every `code.codeIn` element from *line*
