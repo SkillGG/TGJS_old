@@ -48,6 +48,10 @@ for example:
 |[getCenter](#langgetcenter)|`getFrom(,,,'center')`|
 |[loadDictionary](#langloaddictionary)|Loads a single dictionary from file to `Lang` variable.|
 |[loadDictionaries](#langloaddictionaries)|Loads an array of dictionaries from files.|
+|[setLangToLines](#langsetlangtolines)|Sets language of every *Line* in given array|
+|[setLangToLinesFrom](#langsetlangtolinesfrom)|Sets language to all *Lines* in array past given index|
+|[translate](#langtranslate)|Translate given name. Loads its value to **innerHTML**|
+|[reTranslate](#langretranslate)|Changes *Line* language to given new and `translate(*Line*)`.|
 
 ## Object Definitions
 
