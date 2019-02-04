@@ -47,3 +47,13 @@ Coder has 4 basic functions:
 |[multiprocessLine(*line*, *elemets*)](#codermultiprocessLine)|`Coder.processLineE` for more output Elements|
 
 You can check out how it works in this example: [here](Examples/RWCoder/CoderShow.html)
+
+
+Now time too explain more deeply those commands.
+
+### Coder.processLineE
+
+>Syntax:
+>>```javascript
+processLine()
+```
