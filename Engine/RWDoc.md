@@ -53,24 +53,19 @@ Now time too explain more deeply those commands.
 
 ### Coder.processLineE
 
->Syntax:
->
->	**processLineE(line, element)**
+>	Syntax:
+>	processLineE(line, element)
 
 It 'extracts' every `code.codeIn` element from *line*
 and then sets its onkeyup value to [__inputonkeyup13__](#inputonkeyup13).
 
 But what is __inputonkeyup13__?
 
-#### inputonkeyup13
+###### inputonkeyup13
 
 It is a function, that converts given parameter to string and then
 
-changes InputDOMElement.value to it. Then it invokes InputDOMElement.onkeyup
-
-with ```javascript
-{
-	which: 13, keyCode: 13
-}
+changes *element*.`value` to it. Then it invokes *element*.`onkeyup` with 
+```javascript
+{which: 13, keyCode: 13, target: element}
 ```
-and InputDOMElement as `target`.
