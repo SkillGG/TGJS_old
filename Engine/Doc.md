@@ -41,7 +41,7 @@ for example:
 ### Lang Function List
 
 |Name|Function|
-|====|========|
+|----|--------|
 |[loaded](#langloaded)|Returns `true` if all dictionaries has been loaded correctly|
 |[getFrom](#langgetfrom)|Returns innerHTML of given element with given *Line* properties|
 |[getSpan](#langgetspan)|`getFrom(,,,'span')`|
