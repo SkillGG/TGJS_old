@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Coder showup</title>
+	<script src='./../../Engine-RW.js'></script>
+</head>
+<body>
+
+	<span style='background-color: green'>This <code class='codeIn'>code</code> is a &lt;code&gt;, that has a .codeIn class.</span>
+	<br>
+	Click <input type='button' value='click'> button to fire up a <code>Coder.processLine</code> for green line above.
+	<br>
+	Then click at the 'code' and see what's happening to this input: <input id='inp1'>
+	<br>
+	It is clearly seen when you hover over it before and after clicking a button.<Br>
+	Uncoded &lt;code&gt; should have regular text cursor, but coded has a pointer as its cursor.
+	<script>
+		document.querySelector('input#inp1').onkeyup = (e)=>{
+			if(e.which === 13)// If clicked enter
+				alert(`this.value = ${e.target.value}`);
+		}
+		document.querySelector('input').onclick = ()=>{
+			Coder.processLineE(
+				document.querySelector('span'),
+				document.querySelector('input#inp1'));
+		}
+	</script>
+	<br><br>
+	You can do this with many lines with command <code>Coder.processLines()</code>
+	<br>
+	<span id='s1' style='background-color: red'>Span1: Text with <code class='codeIn' style='color: yellow'>code</code></span>
+	<br>
+	<div id='d1' style='background-color: pink'>Div1: Another code is <code class='codeIn' style='color:blue'>go left</code></div>
+	<br>
+	Now we can use Coder.processLines to parse every code tag with class codeIn.
+	<br>
+	Here is the button to set things up: <input type='button' value='setup' id='btn2'>
+	<br>
+	Here is a text field clicking will type to and click enter (e.which=13)
+	<br>
+	<input type='text' id='inp2'>
+	<script>
+		document.querySelector('#btn2').onclick = (e)=>{
+			Coder.processLines([
+				document.querySelector('#s1'),
+				document.querySelector('#d1')
+				], document.querySelector('#inp2'));
+		}
+		document.querySelector('#inp2').onkeyup = (e)=>{
+			if(e.which === 13)
+				document.querySelector('#btn2').value = e.target.value;
+		}
+	</script>
+</body>
+</html>
