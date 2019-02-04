@@ -41,6 +41,9 @@ Coder has 4 basic functions:
 |Name|Function|
 |----|--------|
 |[processLineE(*line*, *element*)](#coderprocesslinee)|Sets callback of `code.codeIn`s in *line* to [__inputonkeyup13__](#inputonkeyup13)|
+|[processLineC(*line*, _element_)](#coderprocesslinec)|Sets callback of `code.codeIn`s in *line* to given *callback*|
 |[processLinesE(*lines*, *element*)](#coderprocesslinese)|`Coder.processLineE` for more input Elements|
+|[processLinesC(*lines*, *element*)](#coderprocesslinesc)|`Coder.processLineC` for more input Elements|
 |[multiprocessLine(*line*, *elemets*)](#codermultiprocessLine)|`Coder.processLineE` for more output Elements|
-|[processLineC(*line*, _element_)](#coderprocesslinec)|Sets callback of `code.codeIn`s in *line* to given in *callback*|
+
+You can check out how it works in this example: [here](Examples/RWCoder/CoderShow.html)
