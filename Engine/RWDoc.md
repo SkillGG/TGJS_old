@@ -55,7 +55,7 @@ Now time too explain more deeply those commands.
 
 >Syntax:
 >
->**processLineE(line, element)**
+>	**processLineE(line, element)**
 
 It 'extracts' every `code.codeIn` element from *line*
 and then sets its onkeyup value to [__inputonkeyup13__](#inputonkeyup13).
