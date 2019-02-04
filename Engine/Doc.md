@@ -38,21 +38,16 @@ for example:
 
 >Lang.getFrom('x',0,0,'span');
 
-## Lang.loadEd
-
-Test
-
 ### Lang Function List
 
-|Name||
-|====||
-|[loaded](#langloaded)||
-|[getFrom](#langgetfrom)||
-|[getSpan](#langgetspan)||
-|[getCenter](#langgetcenter)||
-|[getSpan](#langgetspan)||
-|[loadDictionary](#langloadDictionary)||
-|[loadDictionaries](#langloadDictionaries)||
+|Name|Function|
+|====|========|
+|[loaded](#langloaded)|Returns `true` if all dictionaries has been loaded correctly|
+|[getFrom](#langgetfrom)|Returns innerHTML of given element with given *Line* properties|
+|[getSpan](#langgetspan)|`getFrom(,,,'span')`|
+|[getCenter](#langgetcenter)|`getFrom(,,,'center')`|
+|[loadDictionary](#langloaddictionary)|Loads a single dictionary from file to `Lang` variable.|
+|[loadDictionaries](#langloaddictionaries)|Loads an array of dictionaries from files.|
 
 ## Object Definitions
 
