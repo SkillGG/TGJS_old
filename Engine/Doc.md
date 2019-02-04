@@ -38,21 +38,21 @@ for example:
 
 >Lang.getFrom('x',0,0,'span');
 
-## Lang.load
+## Lang.loadEd
 
 Test
 
 ### Lang Function List
 
-|Name|
-|====|
-|[loaded](#lang-loaded)|
-|[getFrom](#lang-getfrom)|
-|[getSpan](#lang-getspan)|
-|[getCenter](#lang-getcenter)|
-|[getSpan](#lang-getspan)|
-|[loadDictionary](#lang-loadDictionary)|
-|[loadDictionaries](#lang-loadDictionaries)|
+|Name||
+|====||
+|[loaded](#langloaded)||
+|[getFrom](#langgetfrom)||
+|[getSpan](#langgetspan)||
+|[getCenter](#langgetcenter)||
+|[getSpan](#langgetspan)||
+|[loadDictionary](#langloadDictionary)||
+|[loadDictionaries](#langloadDictionaries)||
 
 ## Object Definitions
 
