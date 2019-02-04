@@ -53,8 +53,11 @@ Now time too explain more deeply those commands.
 
 ### Coder.processLineE
 
->	Syntax:
->	processLineE(line, element)
+Syntax:
+
+```javascript
+	Coder.processLineE(line, element)
+```
 
 It 'extracts' every `code.codeIn` element from *line*
 and then sets its onkeyup value to [__inputonkeyup13__](#inputonkeyup13).
