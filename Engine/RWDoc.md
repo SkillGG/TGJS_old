@@ -18,7 +18,9 @@ just [TextEngine.js](TextEngine.js).
 
 Then add it to your HTML project with this line and start using it in your code!
 
-><script src='TextEngine.js'></script>
+```javascript
+<script src='TextEngine.js'></script>
+```
 
 What it provides?
 -----------------
