@@ -15,7 +15,7 @@ How to use?
 -----------
 
 So first thing you want to do is to download newest release or 
-just [RWTextEngine.js](RWTextEngine.js) (ReWorked).
+just [RWTextEngine.js](Engine-RW.js) (ReWorked).
 
 Then add it to your HTML project with this line and start using it in your code!
 
