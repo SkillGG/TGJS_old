@@ -61,6 +61,12 @@ Coder.processLineE(line, element)
 It 'extracts' every `code.codeIn` element from *line*
 and then sets its onkeyup value to [__inputonkeyup13__](#inputonkeyup13).
 
+|Parameter|Element|
+|--|--|
+|*line*|DOMElement which holds at least one `code.codeIn` element inside|
+|*element*|InputDOMElement that has `onkeyup` function.|
+
+
 But what is __inputonkeyup13__?
 
 ###### inputonkeyup13
@@ -71,3 +77,9 @@ changes *element*.`value` to it. Then it invokes *element*.`onkeyup` with
 ```javascript
 {which: 13, keyCode: 13, target: element}
 ```
+
+
+
+
+
+
