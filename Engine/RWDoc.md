@@ -1,5 +1,6 @@
 Documentation Of This Engine
 =============================
+![](https://img.shields.io/badge/code--coverage-1%25-red.svg)
 
 This is _para engine_ which means, that it does not really
 have too much functions.
@@ -59,7 +60,7 @@ Coder.processLineE(line, element)
 ```
 
 It 'extracts' every `code.codeIn` element from *line*
-and then sets its onkeyup value to [__inputonkeyup13__](#inputonkeyup13).
+and then sets its `onclick` value to [__inputonkeyup13__](#inputonkeyup13).
 
 |Parameter|Element|
 |--|--|
@@ -68,7 +69,8 @@ and then sets its onkeyup value to [__inputonkeyup13__](#inputonkeyup13).
 
 ```javascript
 // Returns: 
-null
+			undefined // if everything went smoothly
+			null // if error occured
 ```
 
 But what is __inputonkeyup13__?
@@ -82,7 +84,33 @@ changes *element*.`value` to it. Then it invokes *element*.`onkeyup` with
 {which: 13, keyCode: 13, target: element}
 ```
 
+### Coder.processLineC
+```javascript
+// Syntax:
+		Coder.processLineC(line, callback)
+```
 
+Essentially it is _Coder.processLineE_ just instead of setting callback to __[inputonkeyup13](#inputonkeyup13)__ you can choose a callback.
+
+|Parameter|Description|
+|--|--|
+|*line*|Line same as in **[Coder.processLineE](#coderprocesslinee)**|
+|*callback*|Function that will be called after player clicks on found element |
+
+```javascript
+// Returns: 
+			undefined // if everything went smoothly
+			null // if error occured
+```
+
+Your callback should look like this:
+```javascript
+callback = (event)=>{}
+```
+where *event*&nbsp; has:
+```javascript
+event.target;				// code.codeIn clicked
+```
 
 
 
