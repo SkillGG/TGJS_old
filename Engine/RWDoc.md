@@ -66,6 +66,10 @@ and then sets its onkeyup value to [__inputonkeyup13__](#inputonkeyup13).
 |*line*|DOMElement which holds at least one `code.codeIn` element inside|
 |*element*|InputDOMElement that has `onkeyup` function.|
 
+```javascript
+// Returns: 
+null
+```
 
 But what is __inputonkeyup13__?
 
