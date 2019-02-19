@@ -105,7 +105,9 @@ Essentially it is _Coder.processLineE_ just instead of setting callback to __[in
 
 Your callback should look like this:
 ```javascript
-callback = (rv)=>{}
+callback = (rv)=>{
+	// Your code here...
+}
 ```
 where *rv*&nbsp; has:
 ```javascript
