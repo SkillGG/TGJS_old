@@ -105,11 +105,12 @@ Essentially it is _Coder.processLineE_ just instead of setting callback to __[in
 
 Your callback should look like this:
 ```javascript
-callback = (event)=>{}
+callback = (rv)=>{}
 ```
-where *event*&nbsp; has:
+where *rv*&nbsp; has:
 ```javascript
-event.target;				// code.codeIn clicked
+rv.text(); // function that returns text inside given code.codeIn element
+rv.element(); // function that returns code.codeIn element
 ```
 
 

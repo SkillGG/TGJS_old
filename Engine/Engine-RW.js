@@ -300,7 +300,7 @@ let Lang = {};
 		codeIns.forEach((e)=>{
 			e.style.cursor = "pointer";
 			e.onclick = ()=>{
-				callback({text: ()=>e.name, element: ()=>e});
+				callback({text: ()=>e.innerText, element: ()=>e});
 			};
 		});
 		return true;

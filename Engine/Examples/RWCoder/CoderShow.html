@@ -4,14 +4,24 @@
 	<meta charset="utf-8">
 	<title>Coder showup</title>
 	<script src='./../../Engine-RW.js'></script>
+	<style type="text/css">
+		code.codeIn {
+			font-weight: bold;
+			background-color: black;
+			color: white;
+		}
+		#span3 {
+			background-color: yellow;
+		}
+	</style>
 </head>
 <body>
 
 	<span style='background-color: green'>This <code class='codeIn'>code</code> is a &lt;code&gt;, that has a .codeIn class.</span>
 	<br>
-	Click <input type='button' value='click'> button to fire up a <code>Coder.processLine</code> for green line above.
+	Click <input type='button' value='here'> to fire up a <code>Coder.processLineE</code> for green line above.
 	<br>
-	Then click at the 'code' and see what's happening to this input: <input id='inp1'>
+	Then click at the 'code' and see what's happening to this input: <input id='inp1'> (it alerts its value after clicking enter.Try!)
 	<br>
 	It is clearly seen when you hover over it before and after clicking a button.<Br>
 	Uncoded &lt;code&gt; should have regular text cursor, but coded has a pointer as its cursor.
@@ -27,22 +37,23 @@
 		}
 	</script>
 	<br><br>
-	You can do this with many lines with command <code>Coder.processLines()</code>
+	You can do this with many lines with command <code>Coder.processLinesE()</code>
 	<br>
 	<span id='s1' style='background-color: red'>Span1: Text with <code class='codeIn' style='color: yellow'>code</code></span>
 	<br>
 	<div id='d1' style='background-color: pink'>Div1: Another code is <code class='codeIn' style='color:blue'>go left</code></div>
 	<br>
-	Now we can use Coder.processLines to parse every code tag with class codeIn.
+	Now we can use Coder.processLinesE to parse every code tag with class codeIn.
 	<br>
 	Here is the button to set things up: <input type='button' value='setup' id='btn2'>
 	<br>
 	Here is a text field clicking will type to and click enter (e.which=13)
 	<br>
-	<input type='text' id='inp2'>
+	<input type='text' id='inp2'>This input changes value button up there depending on what was in the field when enter has been clicked.
+	<br>Try this. Type anything then click enter.
 	<script>
 		document.querySelector('#btn2').onclick = (e)=>{
-			Coder.processLines([
+			Coder.processLinesE([
 				document.querySelector('#s1'),
 				document.querySelector('#d1')
 				], document.querySelector('#inp2'));
@@ -52,5 +63,33 @@
 				document.querySelector('#btn2').value = e.target.value;
 		}
 	</script>
+	<br><br>
+	<h3>
+		But... That's space insufficent! It is very long journey!
+	</h3>
+	<br>
+	So in RW1.0 we bring to you:
+	<br>
+	<ul>
+		<li>
+			Coder.processLineC()
+		</li>
+		<li>
+			Coder.processLinesC()
+		</li>
+	</ul>
+	<br>
+	Those work almost the same. Just without the text field needed.
+	Single line:
+	<p id='span3'>This line has two codes. &emsp;<code class='codeIn'>One</code> & <code class="codeIn">Two</code> </p>
+	And here you have <input type="button" id='btn3' value='setup'> button (onclick=Coder.procesLineC).
+	But the 'callback' (check docs) parameter is set to alert.
+	<script>
+		// 3rd script
+		document.querySelector('#btn3').onclick = (e)=>{
+			Coder.processLineC(document.querySelector('#span3'),(r)=>alert(r.text()));
+		}
+	</script>
+
 </body>
 </html>
